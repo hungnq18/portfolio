@@ -12,7 +12,7 @@ export default function Profile() {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row flex-1 relative">
         {/* Left Section - Light Background */}
-        <div className="w-full md:w-1/2 bg-gray-100  p-8 md:p-16 flex flex-col justify-center z-10">
+        <div className="w-full md:w-1/2 bg-[]-300 shadow-md rounded-lg	p-8 md:p-16 flex flex-col justify-center z-10">
           <div className="absolute top-8 left-8">
             <div className="text-2xl font-bold flex items-center">
               <span className="text-black">NH</span>
@@ -62,7 +62,7 @@ export default function Profile() {
           ></div>
         </div>
       </div>
-      {/* Footer Section */}
+      {/* Cover Letter */}
       <div className="text-white p-8 md:p-16 z-1000"
         style={{
           background: 'linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%)',

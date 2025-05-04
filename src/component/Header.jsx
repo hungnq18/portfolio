@@ -1,8 +1,7 @@
 import React from 'react'
-
 function Header() {
     return (
-           <div className="flex justify-end space-x-8 font-bold mb-16  z-1000">
+           <div className="flex justify-end space-x-8 font-bold mb-16 text-white   z-1000">
             <a href="#about" className="hover:text-gray-300 transition-colors">
               About me
             </a>

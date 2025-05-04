@@ -1,9 +1,10 @@
 import React from 'react'
 import AboutMe from '../component/AboutMe'
+import CoverLetter from '../component/CoverLetter'
 
 function Home() {
   return (
-    <div>
+    <div className="home">
      <CoverLetter />
      <AboutMe />
     </div>
